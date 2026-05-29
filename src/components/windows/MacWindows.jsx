@@ -4,8 +4,6 @@ import './window.scss'
 const MacWindows = ({ children, width = '40vw', height = '50vh', windowName, setWindowState }) => {
     return (
         <div>
-            console.log(windowName);
-            console.log(setWindowState);
             <Rnd default={{
                 width: width,
                 height: height,

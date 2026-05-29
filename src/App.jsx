@@ -29,7 +29,7 @@ function App() {
 
       {windowstate.note && <Note windowName="note" setWindowState={setWindowstate} />}
       {windowstate.resume && <Resume windowName="resume" setWindowState={setWindowstate} />}
-      {windowstate.spotify && <Spot ify windowName="spotify" setWindowState={setWindowstate} />}
+      {windowstate.spotify && <Spotify windowName="spotify" setWindowState={setWindowstate} />}
 
       {windowstate.cli && <Cli windowName="cli" setWindowState={setWindowstate} />}
         
