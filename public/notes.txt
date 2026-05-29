@@ -1,0 +1,56 @@
+const generateResponse = async () => {
+  try {
+    setLoading(true);
+
+    const response = await fetch(
+      "https://api.openai.com/v1/chat/completions",
+      {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${import.meta.env.VITE_OPENAI_KEY}`,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          model: "gpt-4",
+          messages: [
+            {
+              role: "user",
+              content: prompt,
+            },
+          ],
+        }),
+      }
+    );
+
+    const data = await response.json();
+
+    setMessages((prev) => [
+      ...prev,
+      {
+        role: "assistant",
+        content: data.choices[0].message.content,
+      },
+    ]);
+  } catch (error) {
+    console.log(error);
+  } finally {
+    setLoading(false);
+  }
+};
+const projects: Project[] = [
+  {
+    id: 1,
+    title: "AI SaaS Platform",
+    description:
+      "Full-stack AI application built with Next.js, OpenAI, Clerk and PostgreSQL.",
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind",
+      "Prisma",
+      "PostgreSQL",
+    ],
+    githubUrl: "https://github.com/user/project",
+    liveUrl: "https://project.vercel.app",
+  },
+];

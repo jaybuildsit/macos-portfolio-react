@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "img": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3",
+    "title": "Gemini AI Clone",
+    "description": "A Gemini-inspired AI chatbot built with React.js and Gemini API featuring chat history and responsive UI.",
+    "tags": ["React", "Gemini API", "Tailwind CSS", "JavaScript"],
+    "repoLink": "https://github.com/jpdev/gemini-ai-clone",
+    "demoLink": "https://gemini-ai-clone.vercel.app"
+  },
+  {
+    "id": 2,
+    "img": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    "title": "Portfolio Website",
+    "description": "Modern responsive portfolio website showcasing projects, skills, and contact information.",
+    "tags": ["React", "Tailwind CSS", "Framer Motion"],
+    "repoLink": "https://github.com/jpdev/portfolio-website",
+    "demoLink": "https://jp-portfolio.vercel.app"
+  },
+  {
+    "id": 3,
+    "img": "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
+    "title": "Expense Tracker",
+    "description": "Track income and expenses with charts, filtering, and local storage persistence.",
+    "tags": ["React", "Chart.js", "LocalStorage"],
+    "repoLink": "https://github.com/jpdev/expense-tracker",
+    "demoLink": "https://expense-tracker-jp.vercel.app"
+  },
+  {
+    "id": 4,
+    "img": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+    "title": "Hotel Booking App",
+    "description": "A hotel booking platform with room listings, search filters, and booking functionality.",
+    "tags": ["React", "Node.js", "MongoDB", "Express"],
+    "repoLink": "https://github.com/jpdev/hotel-booking-app",
+    "demoLink": "https://hotel-booking-jp.vercel.app"
+  },
+  {
+    "id": 5,
+    "img": "https://images.unsplash.com/photo-1516116216624-53e697fedbea",
+    "title": "AI Image Generator",
+    "description": "Generate AI-powered images from text prompts with a clean and responsive interface.",
+    "tags": ["React", "OpenAI", "Tailwind CSS", "REST API"],
+    "repoLink": "https://github.com/jpdev/ai-image-generator",
+    "demoLink": "https://ai-image-generator-jp.vercel.app"
+  }
+]
